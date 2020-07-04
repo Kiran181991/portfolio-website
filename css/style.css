@@ -1,0 +1,294 @@
+* {
+	margin:0;
+	box-sizing:border-box;
+
+} 
+
+
+
+
+
+
+
+body {
+	font-family: myFirstFont;
+}
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("../fonts/SegoeProDisplay-Regular.woff");
+}
+
+
+/*call enquiries starts*/
+.top-header{
+	background:#f2f2f2;
+	width:100%;
+	height:40px;
+	text-align: right;}
+
+	.phone-icon {
+		color:#335eea;
+		font-size:20px;
+	}
+
+.call {
+	color :#506690;
+	margin-right: 120px;
+	font-weight: bold;
+	font-size: 13px;
+	padding:10px;}
+
+	/*call enquiries ends+*/
+
+
+	/*navbar starts*/
+
+	
+	.content{background-color: ;
+	margin-left:10%;
+	margin-right:10%;
+	padding:12px;}
+
+.content-menu {
+	padding:10px;
+}
+
+/*navbar ends*/
+
+	.logo img {
+		/*width:126px;*/
+		height:25px;
+	}
+
+	
+
+	/*banner-area starts*/
+
+.heroImage{
+	background-color:;
+	background-image: url("../images/hand.png");
+	background-repeat: repeat-x;
+	background-position :center bottom;
+	background-size: cover;
+	width :90%;
+	height:600px;
+	margin-top:50px;
+	margin-bottom: 10px;
+	position:relative;
+	padding:10px;
+}
+
+
+/*Hero heading starts*/
+
+	.hero-heading {
+			text-align:center;
+			color:#335eea;
+	 		font-weight: normal;
+	 		font-size:45px;                               
+	 	 	line-height: 45px;
+	 	 	word-spacing: 5px;
+	 	    margin-top:35px;
+	 	    
+	 	}
+
+
+	 	.highlights {
+	 		font-weight: bold;
+	 	}
+	 	
+
+	 	  .green-check {
+	 	  	color: #53c2a1;
+	 	  }                 
+  /*Hero heading ends*/
+
+
+
+
+
+/*Include-list starts*/
+
+.col-two {	text-align: right;
+			
+}
+
+
+	 	 ul.include-list {
+	 	  	font-size : 20px;
+	 	  	padding-top : 10px;
+	 	  	margin-top : 100px;
+	 	  	margin-left : -40px;
+	 	  	list-style : none;
+	 	  }
+
+	 	  ul.include-list li {
+	 	  	padding-top: 10px;
+	 	  }
+
+	 	  .check {
+	 	  	color: blue;
+	 	  	font-size:20px;
+	 	  }
+/*Include-list ends*/
+
+
+/*form section starts*/
+.right{
+	text-align: left;
+	background-color:;
+	width: 300px;
+	height: 470px;
+	display: inline-block;
+	padding: 20px;
+	border : 1px solid blue;
+	border-radius: 2%;
+}
+
+h5.form-heading {
+	font-weight :normal;
+}
+
+b {
+	color:#335eea;
+}
+
+.form-section{
+	padding:10px;
+}
+
+.change{
+	display:block;
+	width:100%;
+	padding:20px 0;
+	margin:0 0 20px; 0;
+	border:none;
+	border-bottom:2px solid gray;
+}
+
+.change:focus{
+	outline:none;
+}
+
+.submit{
+	width: 100%;
+	display: block;
+	margin: 0 0 0 auto;
+	background: #335eea;
+	color: white;
+	padding: 20px;
+	border: none;
+	border-radius: 10px;
+}
+
+.submit:hover {
+	background:lightgrey;
+	color:black;
+	font-weight: bold;
+
+}
+
+
+
+
+/*Sms update senction starts-->*/
+
+.additional {
+	color :blue;
+}
+
+.para-heading {
+	margin :20px 0 20px 0 ;
+	font-size :12;
+}
+
+
+/*form section ends*/
+			 /*banner-area ends*/
+
+
+
+/*responsive starts*/
+
+/*@media screen and (max-width: 991px) {
+ .hero-image {
+ 	background-color: #f2f2f2;
+ 	position:relative;
+ }
+
+.right {
+	background-color: white;
+	box-shadow: 5px 5px 10px 3px #e6e6e6;
+	border:none;
+	width:100%;
+	position: absolute;
+	left:15%;
+	
+	}
+ 
+}
+
+*/
+
+@media screen and (max-width: 767px) {
+
+	.top-header {
+	width :100%;
+	height :40px;
+	text-align : right;}
+
+	.call {
+		padding:10px;
+		margin-right: 20px;
+	}
+	
+
+.heroImage{
+	background-color:;
+	background-image: none;
+	margin-bottom:130px;
+	
+}
+
+.right {
+	box-shadow: 0 0 10px #e6e6e6;
+	border:none;
+	width:75%;
+	position: absolute;
+	left:13%;
+	top:-10px;}
+
+	.include-list{	
+	position: absolute;
+	left:0;
+	top:355px;
+	}
+
+	.include-list li {
+		font-size: 15px;
+	}
+
+.hero-heading {
+	 		font-size:30px;  
+	 			line-height: 35px;
+	 			font-weight :bold;
+	 			
+
+	 	}
+	 	
+
+	ul.highlights {
+		margin-top :15px;
+		font-size :12px;
+		
+	}
+
+	}
+
+	
+
+
+
+
