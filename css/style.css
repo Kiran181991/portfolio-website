@@ -1,0 +1,24 @@
+* {
+	margin:0;
+	box-sizing:border-box;
+} 
+
+body {
+	font-family: sans-serif;
+	background-image: url(../images/kiran.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+	.nav-items{
+	color: green;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("../fonts/SegoeProDisplay-Regular.woff");
+}
+
+
+
