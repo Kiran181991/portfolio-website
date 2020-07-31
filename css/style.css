@@ -1,24 +1,42 @@
 * {
-	margin:0;
-	box-sizing:border-box;
+	margin: 0;
+	box-sizing: border-box;
 } 
-
+ 
 body {
 	font-family: sans-serif;
-	background-image: url(../images/kiran.jpeg);
+	background-image: url(../images/kiran11.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	
 }
 
-	.nav-items{
-	color: green;
-}
 
 @font-face {
   font-family: myFirstFont;
   src: url("../fonts/SegoeProDisplay-Regular.woff");
 }
 
+.navigation{
+	font-style: italic;
+}
 
 
+.intro-container {
+	background-color: red;
+	position: relative;
+}
+
+.name-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px;
+	z-index: 100;
+}
+
+.text-warning {
+	color: #f99d25;
+}
